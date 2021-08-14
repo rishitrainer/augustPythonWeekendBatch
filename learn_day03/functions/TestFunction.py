@@ -22,9 +22,16 @@ def square(number):
     sqr = number*number
     return sqr
 
+# functions are instances and variables can assigned to their values
+test_sqr = square
+print(type(square))
+print(test_sqr(10))
 
+
+'''
 greet("English", "David")
 greet("David")
 sayHello("Hindi")
 sqr_test = square(5)
 print(sqr_test)
+'''
